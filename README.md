@@ -12,13 +12,13 @@
 3. To execute this project, navigate to the `resources` folder and run the `testplan.xml` using TestNG Suite.
    > **Note:** If you do not have TestNG installed, please install it in your IDE.
 
-   If you encounter an error while running the `testplan.xml` file, such as "TestNG by default disables loading DTD from unsecured URLs," you need to add the following code snippet to the Argument value (Run > Edit Configurations).
+   > If you encounter an error while running the `testplan.xml` file, such as "TestNG by default disables loading DTD from unsecured URLs," you need to add the following code snippet to the Argument value (Run > Edit Configurations).
    
    ```
    -ea -Dtestng.dtd.http=true
    ```
 
-   By modifying the `config.properties` file (located in the `resources` folder) and changing the browser value, you can run this test scenario on both Chrome and Edge.
+   > By modifying the `config.properties` file (located in the `resources` folder) and changing the browser value, you can run this test scenario on both Chrome and Edge.
 
 4. After the execution is completed, the report will be generated in the `report` folder, and you can view the results by opening that report.
 
