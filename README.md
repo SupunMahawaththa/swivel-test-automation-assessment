@@ -31,7 +31,7 @@
 
 - **test**
   - `com.testautomation.qa.businessComponents` - Includes all the methods.
-  - `com.testautomation.qa.pages` - Includes the object repository.
+  - `com.testautomation.qa.pages` - Includes the objects(web elements).
   - `com.testautomation.qa.testSuites` - Includes test cases.
 
 - **resources**
