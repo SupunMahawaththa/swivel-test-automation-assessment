@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="AutomationFarameWork">
+	<listeners>
+		<listener
+			class-name="com.testautomation.qa.extentReportListner.TestListners" />
+	</listeners>
+
+
+	<test name="Test">
+		<classes>
+		<class name="com.testautomation.qa.testSuites.tc_01_AddingAProductToAShoppingCartAndVerifyingItsDetails"></class> 
+		</classes>
+	</test>
+</suite>
